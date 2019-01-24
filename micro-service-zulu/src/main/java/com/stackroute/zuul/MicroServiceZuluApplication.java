@@ -1,9 +1,9 @@
-package com.stackroute.microservicezulu;
+package com.stackroute.zuul;
 
-import com.stackroute.microservicezulu.filters.ErrorFilter;
-import com.stackroute.microservicezulu.filters.PostFilter;
-import com.stackroute.microservicezulu.filters.PreFilter;
-import com.stackroute.microservicezulu.filters.RouteFilter;
+import com.stackroute.zuul.filters.ErrorFilter;
+import com.stackroute.zuul.filters.PostFilter;
+import com.stackroute.zuul.filters.PreFilter;
+import com.stackroute.zuul.filters.RouteFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;

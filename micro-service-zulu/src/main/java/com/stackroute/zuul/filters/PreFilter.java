@@ -1,4 +1,4 @@
-package com.stackroute.microservicezulu.filters;
+package com.stackroute.zuul.filters;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
